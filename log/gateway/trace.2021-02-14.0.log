@@ -1,0 +1,450 @@
+2021-02-14 21:38:43.382 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2021-02-14 21:38:48.402 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m        [0;39m InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-14 21:38:53.406 INFO  com.barry.geteway.GatewayApplication              :55   [32m        [0;39m Starting GatewayApplication using Java 1.8.0_181 on tangxiaonideMacBook-Pro.local with PID 35748 (/Users/elsa/Documents/barry/gateway/target/classes started by elsa in /Users/elsa/Documents/barry)
+2021-02-14 21:38:53.407 INFO  com.barry.geteway.GatewayApplication              :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-14 21:38:54.262 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c29b2087-a88f-39bf-af92-773f851bff0a
+2021-02-14 21:38:54.301 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 21:38:54.302 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 21:38:54.305 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 21:38:55.099 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [After]
+2021-02-14 21:38:55.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2021-02-14 21:38:55.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2021-02-14 21:38:55.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2021-02-14 21:38:55.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2021-02-14 21:38:55.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2021-02-14 21:38:55.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2021-02-14 21:38:55.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2021-02-14 21:38:55.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2021-02-14 21:38:55.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [ReadBody]
+2021-02-14 21:38:55.102 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2021-02-14 21:38:55.102 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2021-02-14 21:38:55.102 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-02-14 21:38:55.462 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-02-14 21:38:55.579 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-02-14 21:38:55.600 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-14 21:38:55.632 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-14 21:38:55.635 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 21:38:55.658 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-14 21:38:55.658 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-14 21:38:55.658 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-14 21:38:55.659 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-14 21:38:55.659 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-14 21:38:55.659 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-02-14 21:38:55.659 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-14 21:38:55.935 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-14 21:38:55.940 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-14 21:38:55.943 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-14 21:38:55.948 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1613309935947 with initial instances count: 0
+2021-02-14 21:38:55.950 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application GATEWAY with eureka with status UP
+2021-02-14 21:38:55.950 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613309935950, current=UP, previous=STARTING]
+2021-02-14 21:38:55.952 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000: registering service...
+2021-02-14 21:38:56.085 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - registration status: 204
+2021-02-14 21:39:01.147 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m        [0;39m Netty started on port 9000
+2021-02-14 21:39:01.149 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9000
+2021-02-14 21:39:01.168 INFO  com.barry.geteway.GatewayApplication              :61   [32m        [0;39m Started GatewayApplication in 28.33 seconds (JVM running for 34.387)
+2021-02-14 21:39:01.172 INFO  com.barry.geteway.GatewayApplication              :18   [32m        [0;39m 启动成功！！
+2021-02-14 21:39:01.172 INFO  com.barry.geteway.GatewayApplication              :19   [32m        [0;39m Eureka地址: 	http://127.0.0.1:9000
+2021-02-14 21:39:25.940 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-14 21:39:25.942 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-14 21:39:25.943 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-14 21:39:25.943 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-14 21:39:25.943 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-14 21:39:25.944 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-02-14 21:39:25.944 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-14 21:39:25.957 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-14 21:43:55.691 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 21:48:55.717 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 21:53:55.730 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 21:58:55.744 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:03:55.755 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:08:55.764 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:13:55.776 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:18:55.791 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:23:55.801 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:28:55.812 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:33:55.828 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:33:56.541 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [cb500191-5]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 22:34:08.090 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2021-02-14 22:34:08.091 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613313248091, current=DOWN, previous=UP]
+2021-02-14 22:34:08.094 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000: registering service...
+2021-02-14 22:34:08.117 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - registration status: 204
+2021-02-14 22:34:10.204 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-14 22:34:13.211 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-02-14 22:34:13.215 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - deregister  status: 200
+2021-02-14 22:34:13.222 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-14 22:34:31.591 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2021-02-14 22:34:36.604 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m        [0;39m InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-14 22:34:41.610 INFO  com.barry.geteway.GatewayApplication              :55   [32m        [0;39m Starting GatewayApplication using Java 1.8.0_181 on tangxiaonideMacBook-Pro.local with PID 36228 (/Users/elsa/Documents/barry/gateway/target/classes started by elsa in /Users/elsa/Documents/barry)
+2021-02-14 22:34:41.611 INFO  com.barry.geteway.GatewayApplication              :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-14 22:34:42.497 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c29b2087-a88f-39bf-af92-773f851bff0a
+2021-02-14 22:34:42.565 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 22:34:42.567 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 22:34:42.573 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 22:34:43.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [After]
+2021-02-14 22:34:43.323 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2021-02-14 22:34:43.323 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2021-02-14 22:34:43.323 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2021-02-14 22:34:43.324 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2021-02-14 22:34:43.324 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2021-02-14 22:34:43.324 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2021-02-14 22:34:43.324 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2021-02-14 22:34:43.324 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2021-02-14 22:34:43.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [ReadBody]
+2021-02-14 22:34:43.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2021-02-14 22:34:43.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2021-02-14 22:34:43.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-02-14 22:34:43.719 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-02-14 22:34:43.837 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-02-14 22:34:43.858 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-14 22:34:43.896 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-14 22:34:43.901 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:34:43.945 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-14 22:34:43.945 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-14 22:34:43.946 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-14 22:34:43.946 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-14 22:34:43.946 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-14 22:34:43.946 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-02-14 22:34:43.947 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-14 22:34:44.128 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-14 22:34:44.132 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-14 22:34:44.135 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-14 22:34:44.141 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1613313284140 with initial instances count: 1
+2021-02-14 22:34:44.143 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application GATEWAY with eureka with status UP
+2021-02-14 22:34:44.143 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613313284143, current=UP, previous=STARTING]
+2021-02-14 22:34:44.145 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000: registering service...
+2021-02-14 22:34:44.207 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - registration status: 204
+2021-02-14 22:34:49.361 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m        [0;39m Netty started on port 9000
+2021-02-14 22:34:49.364 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9000
+2021-02-14 22:34:49.389 INFO  com.barry.geteway.GatewayApplication              :61   [32m        [0;39m Started GatewayApplication in 28.242 seconds (JVM running for 34.149)
+2021-02-14 22:34:49.394 INFO  com.barry.geteway.GatewayApplication              :18   [32m        [0;39m 启动成功！！
+2021-02-14 22:34:49.395 INFO  com.barry.geteway.GatewayApplication              :19   [32m        [0;39m Eureka地址: 	http://127.0.0.1:9000
+2021-02-14 22:39:43.958 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:48:44.756 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:53:44.767 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 22:58:44.778 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 23:03:45.172 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 23:08:14.759 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2021-02-14 23:08:14.761 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613315294761, current=DOWN, previous=UP]
+2021-02-14 23:08:14.762 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000: registering service...
+2021-02-14 23:08:14.778 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - registration status: 204
+2021-02-14 23:08:16.866 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-14 23:08:19.875 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-02-14 23:08:19.878 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - deregister  status: 200
+2021-02-14 23:08:19.887 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-14 23:11:31.149 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2021-02-14 23:11:36.179 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m        [0;39m InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-14 23:11:41.186 INFO  com.barry.geteway.GatewayApplication              :55   [32m        [0;39m Starting GatewayApplication using Java 1.8.0_181 on tangxiaonideMacBook-Pro.local with PID 36580 (/Users/elsa/Documents/barry/gateway/target/classes started by elsa in /Users/elsa/Documents/barry)
+2021-02-14 23:11:41.187 INFO  com.barry.geteway.GatewayApplication              :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-14 23:11:42.019 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c29b2087-a88f-39bf-af92-773f851bff0a
+2021-02-14 23:11:42.070 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 23:11:42.071 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 23:11:42.074 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 23:11:42.898 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [After]
+2021-02-14 23:11:42.898 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2021-02-14 23:11:42.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2021-02-14 23:11:42.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2021-02-14 23:11:42.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2021-02-14 23:11:42.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2021-02-14 23:11:42.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2021-02-14 23:11:42.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2021-02-14 23:11:42.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2021-02-14 23:11:42.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [ReadBody]
+2021-02-14 23:11:42.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2021-02-14 23:11:42.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2021-02-14 23:11:42.901 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-02-14 23:11:43.168 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-02-14 23:11:43.268 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-02-14 23:11:43.289 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-14 23:11:43.319 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-14 23:11:43.322 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 23:11:43.342 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-14 23:11:43.343 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-14 23:11:43.343 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-14 23:11:43.343 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-14 23:11:43.343 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-14 23:11:43.344 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-02-14 23:11:43.344 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-14 23:11:43.528 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-14 23:11:43.530 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-14 23:11:43.533 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-14 23:11:43.538 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1613315503538 with initial instances count: 0
+2021-02-14 23:11:43.540 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application GATEWAY with eureka with status UP
+2021-02-14 23:11:43.541 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613315503541, current=UP, previous=STARTING]
+2021-02-14 23:11:43.543 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000: registering service...
+2021-02-14 23:11:43.592 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/192.168.1.6:gateway:9000 - registration status: 204
+2021-02-14 23:11:48.708 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m        [0;39m Netty started on port 9000
+2021-02-14 23:11:48.738 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9000
+2021-02-14 23:11:48.775 INFO  com.barry.geteway.GatewayApplication              :61   [32m        [0;39m Started GatewayApplication in 28.026 seconds (JVM running for 33.882)
+2021-02-14 23:11:48.779 INFO  com.barry.geteway.GatewayApplication              :18   [32m        [0;39m 启动成功！！
+2021-02-14 23:11:48.779 INFO  com.barry.geteway.GatewayApplication              :19   [32m        [0;39m Eureka地址: 	http://127.0.0.1:9000
+2021-02-14 23:12:13.535 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-14 23:12:13.536 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-14 23:12:13.537 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-14 23:12:13.537 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-14 23:12:13.537 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-14 23:12:13.538 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2021-02-14 23:12:13.539 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-14 23:12:13.550 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-14 23:16:29.304 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-8]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:16:43.353 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 23:17:06.446 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-12]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:08.702 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-13]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:09.375 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-14]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:18.804 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-15]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:24.326 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-16]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:25.272 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-17]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:27.254 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-18]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:27.969 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-19]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:34.807 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-20]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:35.588 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-21]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:17:35.893 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:122  [32m        [0;39m [dcc54f90-22]  500 Server Error for HTTP GET "/service/hello"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	|_ checkpoint ⇢ HTTP GET "/service/hello" [ExceptionHandlingWebHandler]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-14 23:21:43.362 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 23:26:43.374 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-14 23:31:43.386 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

@@ -1,0 +1,111 @@
+2021-02-15 00:10:32.132 INFO  com.netflix.discovery.DiscoveryClient             :897  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - Re-registering apps/SYSTEM
+2021-02-15 00:10:32.147 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001: registering service...
+2021-02-15 00:10:32.217 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - registration status: 204
+2021-02-15 00:10:35.532 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=37m13s922ms).
+2021-02-15 00:44:16.172 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=33m40s641ms).
+2021-02-15 01:48:21.968 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h3m35s287ms).
+2021-02-15 03:40:22.201 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h51m30s220ms).
+2021-02-15 03:41:46.153 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=53s942ms).
+2021-02-15 07:44:12.029 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-15 07:44:15.708 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=4h2m29s555ms).
+2021-02-15 11:16:23.338 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m        [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h31m37s626ms).
+2021-02-15 11:20:19.477 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-15 11:22:37.113 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-02-15 11:22:37.114 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613359357114, current=DOWN, previous=UP]
+2021-02-15 11:22:37.115 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001: registering service...
+2021-02-15 11:22:37.126 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - registration status: 204
+2021-02-15 11:22:37.152 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-15 11:22:37.154 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-2 - Shutdown initiated...
+2021-02-15 11:22:37.158 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-2 - Shutdown completed.
+2021-02-15 11:22:37.159 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-15 11:22:40.166 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-02-15 11:22:40.169 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - deregister  status: 200
+2021-02-15 11:22:40.174 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-15 11:22:55.565 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m        [0;39m InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-15 11:23:00.568 INFO  com.barry.service.SystemApplication                :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_181 on tangxiaonideMacBook-Pro.local with PID 36619 (/Users/elsa/Documents/barry/service/target/classes started by elsa in /Users/elsa/Documents/barry)
+2021-02-15 11:23:00.568 INFO  com.barry.service.SystemApplication                :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-15 11:23:00.875 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c5d2a64a-6f27-3200-9b6b-85b0b614cba0
+2021-02-15 11:23:00.956 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-15 11:23:00.957 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-15 11:23:00.957 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-15 11:23:00.957 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-15 11:23:00.973 INFO  o.a.c.c.C.[Tomcat].[localhost].[/service]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-15 11:23:00.973 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 401 ms
+2021-02-15 11:23:01.065 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-15 11:23:01.137 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-15 11:23:01.164 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-02-15 11:23:01.202 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-02-15 11:23:01.210 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-15 11:23:01.212 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-15 11:23:01.213 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-15 11:23:01.214 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-15 11:23:01.214 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-15 11:23:01.215 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-15 11:23:01.215 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-15 11:23:01.215 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-15 11:23:01.215 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-02-15 11:23:01.215 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-15 11:23:01.229 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-15 11:23:01.230 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-15 11:23:01.231 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-15 11:23:01.232 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1613359381232 with initial instances count: 2
+2021-02-15 11:23:01.234 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-02-15 11:23:01.234 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613359381234, current=UP, previous=STARTING]
+2021-02-15 11:23:01.235 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001: registering service...
+2021-02-15 11:23:01.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-02-15 11:23:01.239 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/service'
+2021-02-15 11:23:01.240 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2021-02-15 11:23:01.246 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - registration status: 204
+2021-02-15 11:23:01.249 INFO  com.barry.service.SystemApplication                :61   [32m        [0;39m Started SystemApplication in 20.785 seconds (JVM running for 1759.608)
+2021-02-15 11:23:01.251 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-02-15 11:23:01.251 INFO  com.barry.service.SystemApplication                :20   [32m        [0;39m 启动成功！！
+2021-02-15 11:23:01.252 INFO  com.barry.service.SystemApplication                :21   [32m        [0;39m Eureka地址: 	http://127.0.0.1:9001
+2021-02-15 11:28:01.226 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-15 11:38:21.065 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2021-02-15 11:38:21.066 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613360301066, current=DOWN, previous=UP]
+2021-02-15 11:38:21.066 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001: registering service...
+2021-02-15 11:38:21.087 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-15 11:38:21.088 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2021-02-15 11:38:21.088 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - registration status: 204
+2021-02-15 11:38:21.089 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2021-02-15 11:38:21.092 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - deregister  status: 200
+2021-02-15 11:38:21.096 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2021-02-15 11:38:36.379 WARN  org.springframework.boot.StartupInfoLogger        :117  [32m        [0;39m InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-02-15 11:38:41.385 INFO  com.barry.service.SystemApplication                :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_181 on tangxiaonideMacBook-Pro.local with PID 36619 (/Users/elsa/Documents/barry/service/target/classes started by elsa in /Users/elsa/Documents/barry)
+2021-02-15 11:38:41.385 INFO  com.barry.service.SystemApplication                :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-02-15 11:38:41.579 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c5d2a64a-6f27-3200-9b6b-85b0b614cba0
+2021-02-15 11:38:41.644 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2021-02-15 11:38:41.645 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2021-02-15 11:38:41.645 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2021-02-15 11:38:41.645 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-15 11:38:41.659 INFO  o.a.c.c.C.[Tomcat].[localhost].[/service]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2021-02-15 11:38:41.659 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 271 ms
+2021-02-15 11:38:41.731 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-15 11:38:41.776 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2021-02-15 11:38:41.795 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2021-02-15 11:38:41.822 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-02-15 11:38:41.829 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2021-02-15 11:38:41.831 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2021-02-15 11:38:41.831 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2021-02-15 11:38:41.833 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2021-02-15 11:38:41.833 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2021-02-15 11:38:41.833 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2021-02-15 11:38:41.833 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2021-02-15 11:38:41.833 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2021-02-15 11:38:41.834 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2021-02-15 11:38:41.834 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2021-02-15 11:38:41.849 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2021-02-15 11:38:41.854 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2021-02-15 11:38:41.855 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-02-15 11:38:41.857 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1613360321857 with initial instances count: 1
+2021-02-15 11:38:41.859 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2021-02-15 11:38:41.859 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1613360321859, current=UP, previous=STARTING]
+2021-02-15 11:38:41.860 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001: registering service...
+2021-02-15 11:38:41.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2021-02-15 11:38:41.865 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/service'
+2021-02-15 11:38:41.866 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2021-02-15 11:38:41.874 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/192.168.1.6:service:9001 - registration status: 204
+2021-02-15 11:38:41.880 INFO  com.barry.service.SystemApplication                :61   [32m        [0;39m Started SystemApplication in 20.561 seconds (JVM running for 2312.615)
+2021-02-15 11:38:41.882 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2021-02-15 11:38:41.883 INFO  com.barry.service.SystemApplication                :20   [32m        [0;39m 启动成功！！
+2021-02-15 11:38:41.883 INFO  com.barry.service.SystemApplication                :21   [32m        [0;39m Eureka地址: 	http://127.0.0.1:9001
